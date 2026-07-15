@@ -1,4 +1,5 @@
 #/bin/bash
 sudo pacman -Syu
 sudo pacman -R $(pacman -Qdtq)
-paccache -r
+yay -Syu
+yay -R $(yay -Qdtq)
